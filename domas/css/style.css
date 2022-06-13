@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial;
+    background: #5d00c7 url(subtle-white-feathers.png) repeat top left;
+    height: auto;
+}
+
+a{
+    color:#444;
+}
+
+a:hover{
+    color:#999;
+}
+
+p {
+    font-size: 2.8vh;
+}
+
+.img {
+    margin: auto;
+    margin-top: 2px;
+    top: 5px;
+    height: 4vh;
+    width:90%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,8,122,1) 0%, rgba(33,0,255,1) 100%);
+    text-align: center;
+  }
+.p {
+        font-size: 3vh;
+        background: linear-gradient(to right, rgb(255, 255, 255) 0%, #c9a7f3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  
+.logo{
+    width:1200px;
+    height:30px;
+}
+.title{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:30px;
+    left:0px;
+    background:url(image.png);
+    background-repeat: round;
+ }
+#content{
+    margin:0 auto;
+}
+.reference{
+    border-radius: 50px 40px;
+    border-top-left-radius: 50px 20px;
+    clear:both;
+    top:79vh;
+    left:8vw;
+    position:absolute;
+    text-align:left;
+    width:45vw;
+    padding:10px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.75;
+}
+.reference2{
+    border-bottom-right-radius: 50px 20px;
+    clear:both;
+    top:16vh;
+    left:5vw;
+    position:absolute;
+    text-align:left;
+    width:30vw;
+    padding:7px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.75;
+}
+.reference3{
+    border-top-left-radius: 50px 20px;
+    clear:both;
+    top:75vh;
+    left:61vw;
+    position:absolute;
+    text-align:left;
+    width:30vw;
+    padding:7px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.75;
+}
+.reference4{
+    border-top-right-radius: 50px 20px;
+    clear:both;
+    top:31vh;
+    left:38vw;
+    position:absolute;
+    text-align:left;
+    width:12vw;
+    padding:7px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.75;
+}
+.reference5{
+    border-radius: 50px 150px;
+    clear:both;
+    top:45vh;
+    left:10vw;
+    position:absolute;
+    text-align:left;
+    width:7vw;
+    height: 5vh;
+    padding:35px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.8;
+    background-image: url('../images/brain.jpg');
+    background-size: 100% 100%;
+}
+.reference6{
+    border-radius: 123px 70px;
+    clear:both;
+    top:18vh;
+    left:42vw;
+    position:absolute;
+    text-align:left;
+    width:0.1%;
+    height: 0.1%;
+    padding:35px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+    opacity: 0.15;
+    background-image: url('all_seeing_eye.png');
+    background-size: 100% 100%;
+}
+/* .reference p a{
+    text-transform:uppercase;
+    text-shadow:1px 1px 1px #fff;
+    color:#666;
+    text-decoration:none;
+    font-size:10px;
+}
+.reference p a:hover{
+    color:#333;
+} */
+
+.footer {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   width: 10vw;
+   background-color: rgb(127, 10, 236);
+   color: rgb(10, 10, 10);
+   text-align: left;
+}
+
+
+
+ul.accordion{
+    list-style:none;   
+    position:absolute;
+    right:1vw;
+    top:5vh;
+    font-family: Cambria, serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5em;
+}
+ul.accordion li{
+    float:right;
+    width:10vw;
+    height:65vh;
+    display:block;
+    border-right:2px solid #fff;
+    border-bottom:2px solid #fff;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+}
+ul.accordion li.bg1{
+    background-image:url(../images/meditation.jpg);
+    background-size: 35vw 60vh;
+}
+ul.accordion li.bg2{
+    background-image:url(../images/emotions.jpg);
+    background-size: 30vw 60vh;
+}
+ul.accordion li.bg3{
+    background-image:url(../images/consciousness.jpg);
+    background-size: 30vw 60vh;
+}
+ul.accordion li.bg4{
+    background-image:url(../images/mindcontrol.jpg);
+    background-size: 30vw 60vh;
+    border-bottom-left-radius: 50px 20px;
+    border-top-left-radius: 40px 40px;
+}
+ul.accordion li.bleft{
+    border-left:2px solid #fff;
+}
+ul.accordion li .heading{
+    background-color:#fff;
+    padding:10px;
+    margin-top:60px;
+    opacity:0.9;
+    text-transform:uppercase;
+    font-style:normal;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-size:14px;
+    color:#444;
+    text-align:center;
+    text-shadow:-1px -1px 1px #ccc;
+}
+ul.accordion li .description{
+    position:absolute;
+    width:30vw;
+    height:175px;
+    bottom:0px;
+    left:0px;
+    display:none;
+    margin-left: 10px;
+}
+
+ul.accordion li .description a{
+    position:absolute;
+    bottom:5px;
+    left:25px;
+    width:85%;
+    text-transform:uppercase;
+    font-style:normal;
+    font-size:19px;
+    text-decoration:none;
+    color:#888;
+}
+ul.accordion li .description a:hover{
+    color:#333;
+    text-decoration:underline;
+}
+
+ul.accordion li .bgDescription{
+    background:transparent url(../images/bgDescription.png) repeat-x top left;
+    height:40vh;
+    position:absolute;
+    bottom:0px;
+    left:20px;
+    width:100%;
+    display:none;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #grey {
+      color: #ccc;
+  }

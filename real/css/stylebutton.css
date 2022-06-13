@@ -1,0 +1,54 @@
+.btn-close {
+    background: #9900ff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 150ms;
+  }
+  .btn-close .icon-cross {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .btn-close .icon-cross:before, .btn-close .icon-cross:after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #fff;
+    border-radius: 6px;
+  }
+  .btn-close .icon-cross:before {
+    transform: rotate(45deg);
+  }
+  .btn-close .icon-cross:after {
+    transform: rotate(-45deg);
+  }
+  
+  body {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    height: 100vh;
+  }
+  
+  .text {
+    padding-top: 5%;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: rgb(214, 141, 141);
+    text-align: center;
+    font-size: 8vh;
+  }

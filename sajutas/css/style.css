@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+  overflow: hidden;
+ 
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 100px;
+	transform-style: unset;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+h1 {
+   font-size: 150%;
+   text-align: center;
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.inl p{
+  display: inline-block;
+}
+
+.inl{
+  margin-top: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 155%;
+  text-shadow: 0 1px 1px rgb(115, 117, 3);
+}
+
+.inline {
+  margin-top: 10px;
+}
+
+#slide4 {
+  background-image: linear-gradient(180deg, rgb(238, 237, 237), rgb(252, 227, 227));
+  padding: 5vh;
+}
+
+#slide5 {
+  background-image: linear-gradient(180deg, rgb(252, 227, 227), rgb(224, 223, 223));
+  padding: 5vh;
+}
+
+#slide6 {
+  background-image: linear-gradient(180deg, rgb(224, 223, 223), rgb(202, 202, 202));
+  padding: 5vh;
+}
+
+.talak {
+  background-color: rgb(231, 229, 229);
+  width: max-content;
+  /* margin: auto; */
+  margin-left: 65vw;
+  padding: 1px;
+  font-size: 3vh;
+  cursor: grab;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.fixed1 {
+  position: fixed;
+  bottom: -160vh;
+  left: 0;
+}
+
+#myDIV {
+  display: none;
+  
+}
+
+.myDIV {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background: #d0e4e1;
+  padding: 3px;
+  opacity: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 7px 0 rgba(0,0,0,0.19);
+}
+
+.myDIV p {
+  font-size: small;
+}
+
+
+button {
+  cursor: pointer;
+  background-color: rgb(221, 221, 226);
+  border-radius: 15%;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 8px 16px 0 rgba(114, 9, 9, 0.2), 0 3px 10px 0 rgba(61, 61, 61, 0.19);
+}
+
+button:hover {
+  background-color: rgb(211, 211, 226);
+}
+
+.bb {
+  color: blue;
+  }
+
+.but1 {
+  position: absolute;
+  font-size: 1.2vw;
+  width: 15vw;
+  height: auto;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: grab;
+  box-shadow: 0 8px 16px 0 rgba(114, 9, 9, 0.2), 0 3px 10px 0 rgba(61, 61, 61, 0.19);
+  margin-left: 59vw;
+  display: inline-block;
+  right: 0;
+  background-color: rgb(239, 239, 250);
+  }
+
+  .but1:hover {
+    background-color: rgb(99, 15, 155);
+    color:azure;
+  }
+
+  textarea {
+    width: 70%;
+    height: 25vh;
+  }
+
+  

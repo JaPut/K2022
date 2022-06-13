@@ -1,0 +1,140 @@
+body {
+    padding-top: 7vh;
+    background: linear-gradient(to right,#e4efe9,#93a5cf);
+}
+
+.tituls {
+    width:auto;
+    text-align:center !important;
+    color: rgb(8, 107, 5);
+    font-size: 4vh;
+    position:relative;
+}
+
+.value {
+    width:auto;
+    text-align:center !important;
+    color: rgb(0, 4, 255);
+    font-size: 5vh;
+    font-weight: bolder;
+    /* padding-bottom: 3vh;
+    padding-top: 5vh; */
+}
+
+.top {
+    display:flex;
+    margin: auto;
+    width: auto;
+}
+
+.ramis {
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    background-size: 100%; 
+    min-width: 30vw;
+    min-height: 35vh;
+    margin:auto;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    position: relative;
+    cursor: grab;
+}
+
+.ramis:hover {
+    opacity: 0.8;
+}
+
+.pirmais {
+    background-image: url(../img/pasakas.jpg);
+}
+
+.otrais {
+    background-image: url(../img/isteniba.jpg);
+}
+
+.tresais {
+    background-image: url(../img/improvizacijas.jpg);
+}
+
+.ceturtais {
+    background-image: url(../img/aktualitates.jpg);
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.1s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #fffb02;
+    color: #111;
+    font-size: 3vh;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    bottom: 20vh;
+    left: 7%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    font-weight: 900;
+    /* z-index: 100; */
+  }
+
+.centered:hover {
+    font-size: 2.1vh;
+}
+
+.tekstsramis {
+    font-size: 5vh;
+    position: absolute;
+    bottom: 104%;
+    left:30%; 
+}
+
+.tekstsramis1 {
+    font-size: 5vh;
+    position: absolute;
+    bottom: 90%;
+    left:35%;
+}
+
+.tekstsramis3 {
+    font-size: 5vh;
+    position: absolute;
+    bottom: 90%;
+    left:35%;
+}
+
+.tekstsramis2 {
+    font-size: 5vh;
+    position: absolute;
+    bottom: 90%;
+    left:40%;
+}
+
+.tekstsramis2:hover{
+    display: block;
+   
+    color: #fffb02;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }

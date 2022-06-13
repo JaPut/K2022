@@ -1,0 +1,169 @@
+
+html {
+  height: 100%;
+}
+
+body{
+    background: url("../images/mystic.png") repeat,
+    linear-gradient(35deg, white, ivory);
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    
+  }
+  
+  .header {
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    position: relative;
+    top: 8vh;
+       
+  }
+
+  .spin3 {
+    font-size: 7vh;
+    font-weight: 500;
+  }
+
+  spin1 {
+    font-size: 33px;
+  }
+  spin2 {
+    font-size: 13px;
+    text-align: right;
+  }
+  
+ 
+  .leftcolumn {   
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+   }
+  
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .laiks {
+   padding-left: 25px;
+    text-align: right;
+    font-size: 1.5vh;
+    bottom: 0;
+ }
+  .links {
+    padding-left: 1vw;
+   text-decoration: none;
+  
+    font-size: 3vh;
+ }
+  
+ 
+  .card {
+     background-color: rgb(245, 245, 245);
+     padding-top: 5px;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin: 30px;
+     background: rgba(211, 239, 247, 0.6);
+     display: inline-block;
+     border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    transform: rotate(1%);
+    text-align: center;
+    min-width: 15vw;
+    top: 15vh;
+    position: relative;
+    margin-right: 3vw;
+  }
+
+  .space {
+    line-height:60%;
+  }
+
+ 
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    /* height: 4vh; */
+    background-color: rgb(127, 10, 236);
+    color: rgb(10, 10, 10);
+    text-align: right;
+    font-size: 10px;
+    margin-bottom:0;
+    padding:0px;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+
+
+  .leftcolumn {   
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links {
+    padding-left: 1vw;
+   text-decoration: none;
+  
+    font-size: 3vh;
+ }
+ 
+ .spin3 {
+  font-size: 22px;
+ 
+}
+
+  .card {
+    
+    display: block;
+    transform: rotate(0.1deg);
+    opacity: 70%;
+    font-variant-caps: titling-caps;
+    color: rgb(7, 7, 7);
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    width: 90%;
+    height: auto;
+    background-color: rgb(205, 234, 241);
+    box-shadow:1px 3px 15px #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color:darkgray;
+  }
+
+  .spin3 {
+    font-size: 7vh;
+    font-weight: 500;
+  }
+
+}

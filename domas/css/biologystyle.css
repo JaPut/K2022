@@ -1,0 +1,144 @@
+body{
+    background: url('../images/bio.png');
+}
+
+* {
+box-sizing: border-box;
+}
+  
+.header {
+  padding: 10px;
+  font-size: 6.5vh;
+  font-weight: 900;
+  text-align: center;
+  background: rgba(231, 223, 223, 0.6);
+  opacity: 1;
+  width: auto;
+  display: table;
+  margin: auto;
+  border-radius: 20%;
+}
+
+.border {
+  text-align: center;
+  border: 0.5px dashed green ;
+  margin: auto;
+  display: table;
+  padding: 1vh;
+  border-radius: 25%;
+  background-color: rgb(231, 248, 238);
+}
+
+.card {
+  padding: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-top: 15px;
+  background: rgba(211, 239, 247, 0.6);
+ }
+
+ .button1{
+   text-align: center;
+   margin: auto;
+   margin-right: 50%;
+   font-size: large;
+ }
+  
+.txt {
+  font-size: calc(12px + 1.1vh);;
+  text-indent: 3%;
+}
+
+.autors {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.autors2 {
+  text-align: right;
+  margin-right: 10px;
+  font-size: 11px;
+}
+
+.myDIV2 {
+  width: auto;
+  display: inline-block;
+  background: #c6eaf0;
+  padding: 1px;
+  opacity: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 7px 0 rgba(0,0,0,0.19);
+  border-bottom-left-radius: 100% 40%;
+}
+
+.comessage{
+  min-width: 30vw;
+  color: rgb(11, 14, 15);
+  border: 1px solid rgb(215, 215, 218);
+  display: inline-block;
+  margin-left: 5px;
+  /* margin-bottom:2%; */
+  border-bottom-left-radius: 100% 5%;
+  border-bottom-right-radius: 5% 15%;
+  border-top-left-radius: 150% 7%;
+  border-top-right-radius: 100% 33%;
+  background-color: ivory;
+  opacity: 70%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  }
+  
+.inline { 
+  margin:3px;
+  float:left;
+  font-size: 1.3vw; 
+  }
+ 
+#myDIVans {
+  display: none;
+}
+
+    .myDIVans {
+      width: 40vw;
+      display: inline-block;
+      background: #d5ecf0;
+      padding: 3px;
+      opacity: 75%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 7px 0 rgba(0,0,0,0.19);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3vh;
+  }
+
+  .piebilde {
+    text-align: center; 
+  }
+
+
+
+button {
+  margin-left: 10vw;
+  font-weight: 600;
+  
+}
+
+.butatb {
+  font-size: 3vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+textarea { 
+  width: 100%; 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+  
