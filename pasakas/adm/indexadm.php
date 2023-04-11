@@ -93,7 +93,7 @@ if(!isset($_SESSION['UserData']['Username'])){
         <option value="Kā tas notiek">Kā tas notiek</option>
         <option value="Ko darīt">Ko darīt</option>
         <option value="Kas vainīgs">Kas vainīgs</option>
-        <option value="Ko var kontrolēt">Ko var kontrolēt</option>
+        <option value="Ko var ietekmēt">Ko var ietekmēt</option>
         <option value="Kas tagad būs">Kas tagd būs</option>
         <option value="Kas tagad būs">Kāpēc tas notiek</option>
         <option></option>

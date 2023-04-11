@@ -61,10 +61,12 @@
     </div>
     <div class="quote">"Ar dzīvi ir tāpat kā ar pasaku, nav svarīgi cik gara, svarīgi cik laba."</div>
     <div class="question">
-      <br># šī ir sadaļa par dzīves <abbr title="domāts - praktisko">pragmatisko</abbr> pusi. Ja vēl nav skaidrs kas un kādēļ, tad vēl jāpadomā un jāiet uz <a href=../domas/index.html>Pārdomu sadaļu</a>.
-      <br><br># šeit ir nosauktas vārdā vajadzības un resursi to realizēšanai. Papildus apskatīti jautājumi -
-      "kas notiek?", "ko darīt?", "kas vainīgs?". To visu apzinoties un pareizi saliekot kopā, <abnevis izpratni par modeļiem.br title="lai kas tas arī būtu">pārējais</abbr> ir jau vienkārši. Jāķeras tik klāt.
-      <br><br># ikdienā pats galvenais jautājums ir "ko darīt". Kas jādara citiem vienmēr ir skaidrs. Ja par sevi īsti nav skaidrs, tālāk var pameklēt idejas iedvesmai.
+      <br># šī ir sadaļa par dzīves <abbr title="domāts - praktisko">praktisko</abbr> pusi, par to kurā jākustās. Ja vēl nav skaidrs kas un kādēļ, tad vēl jāpadomā un iedvesmu var rast <a href=../domas/index.html>Pārdomu sadaļu</a>.
+      <br># šeit tiek nosauktas vārdā mūsu vajadzības un resursi to realizēšanai.
+      <br># papildus apskatīti eksistenciāli jautājumi, tādi kā - "kas notiek?", "ko darīt?", "kas vainīgs?".
+      Tos, sev īstajā brīdī uzdodot, <i><abnevis izpratni par modeļiem.br title="lai kas tas arī būtu">pārējais</abbr></i> ir jau vienkārši izdarāms. Jāķeras tik klāt.
+      <br># ikdienā pats galvenais jautājums ir "ko darīt". Kas jādara citiem, parasti vienmēr ir skaidrs, šeit var ar to padalīties.
+      Vai arī pameklēt idejas iedvesmai.
       </div>
     <div class="disc">&copy Attēlam nav pat ilustratīvas nozīmes.</div>
     <div><a class="poga2" href="../pasakas/launch/index.php">labāk Pasakas</a></div>
@@ -267,11 +269,11 @@
         </form>
       </div>
         <input class="buttons" value="Aizvērt" id="aizvsp"/>
-        <input class="buttons" id="btnn6" value="Pievienot savu vajadzību" id="aizvsp" />
+        <input class="buttons" id="btnn6" value="Pievienot savu resursu" id="aizvsp" />
     </div>
 
     <div id="sponk" class="spong">
-      <h1>arī Cilvēka resursi</h1><br>
+      <h1>Cilvēka iedomāti resursi</h1><br>
 
       <?php
         while ($data = mysqli_fetch_assoc($result4)) {
@@ -314,7 +316,7 @@
         </form>
         </div>
             <input type="submit" class="buttons" value="Aizvērt" id="aizvsp"/>
-            <input type="submit" class="buttons" id="btnn7" value="Pievienot savu vajadzību" id="aizvsp" />
+            <input type="submit" class="buttons" id="btnn7" value="Pievienot savu resursu" id="aizvsp" />
     </div>
 </div>
  

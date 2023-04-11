@@ -53,8 +53,8 @@
 		   
 		if($this->insert_record($vajres, $vajresnos, $content, $name))
 			{
-				$location = $_SERVER['PHP_SELF'];
-				echo '<META HTTP-EQUIV="Refresh" Content="0; URL='.$location.'">';
+				$location = $_SERVER['index.php#needstit'];
+				echo '<META HTTP-EQUIV="Refresh" Content="20; URL='.$location.'">';
 			}
 			else
 			{
@@ -385,7 +385,7 @@
 	public function view_realque5()
 	{
 		global $realdb;
-		$query = "select * from que where jautajums='Ko var kontrolēt' LIMIT 6";
+		$query = "select * from que where jautajums='Ko var ietekmēt' LIMIT 6";
 		$result5 = mysqli_query($realdb->conn,$query);
 		return $result5;
 	}

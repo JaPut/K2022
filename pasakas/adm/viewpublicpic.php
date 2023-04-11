@@ -75,8 +75,7 @@ if(!isset($_SESSION['UserData']['Username'])){
 <form method="POST" enctype="multipart/form-data">
   <input class="inl" type="file" id="myFile" name="myfile">
   <input class="inl" type="submit" name="savep" value="Pievienot">
-  <input class="inl" type="image"  src="<?php echo "<img src='../adm/uploads/".$row['name']."' >"; ?>">
-</form>
+  </form>
 <br>
 
 <form> <button type="submit" formaction="indexadm.php">index</button>     </form>

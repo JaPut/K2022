@@ -19,7 +19,7 @@
                     <div class="card-header">
                         <h2> Update Record </h2>
                     </div>
-                        <?php $db->Store_Comm(); ?>
+                        
                         <div class="card-body">
                             <form method="POST">
                                 <input type="text" name="ID" value="<?php echo $data['id']; ?>">
